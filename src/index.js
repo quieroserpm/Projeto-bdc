@@ -8,8 +8,8 @@ const cors = require('cors');
 
 
 mongoose.connect('mongodb+srv://cluster0:Agarayco145@cluster0.z160f.mongodb.net/myFirstDatabase?retryWrites=true&w=majority', {
-    useNewUrlParser: true,
-    useCreateIndex: true
+    //useNewUrlParser: true,
+    //useCreateIndex: true
 });
 app.use(cors());
 app.use(express.json());
